@@ -1,0 +1,19 @@
+{
+  "name": "update_card_db",
+  "version": "1.0.0",
+  "description": "update_card_db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conn0r121/update_card_db.git"
+  },
+  "author": "Connor Robinson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conn0r121/update_card_db/issues"
+  },
+  "homepage": "https://github.com/Conn0r121/update_card_db#readme"
+}
