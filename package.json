@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Conn0r121/update_card_db/issues"
   },
-  "homepage": "https://github.com/Conn0r121/update_card_db#readme"
+  "homepage": "https://github.com/Conn0r121/update_card_db#readme",
+  "dependencies": {
+    "mongoose": "^6.0.10"
+  }
 }
