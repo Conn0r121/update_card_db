@@ -1,7 +1,6 @@
 {
   "name": "update_card_db",
   "version": "1.0.0",
-  "type": "module",
   "description": "update_card_db",
   "main": "index.js",
   "scripts": {
@@ -18,8 +17,8 @@
   },
   "homepage": "https://github.com/Conn0r121/update_card_db#readme",
   "dependencies": {
+    "cross-fetch": "^3.1.4",
     "dotenv": "^10.0.0",
-    "mongoose": "^6.0.10",
-    "node-fetch": "^3.0.0"
+    "mongoose": "^6.0.11"
   }
 }

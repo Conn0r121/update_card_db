@@ -1,7 +1,7 @@
-import mongoose from 'mongoose';
-import cardModel from './models/card.js';
-import dotenv from 'dotenv';
-import fetch from 'node-fetch';
+const mongoose = require('mongoose');
+const cardModel = require('./models/card.js');
+const dotenv = require('dotenv');
+const fetch = require('cross-fetch');
 
 dotenv.config();
 
@@ -50,6 +50,6 @@ async function main() {
 
 // main();
 
-module.exports.handler = (_) => {
+exports.handler = (_) => {
     main();
 }
