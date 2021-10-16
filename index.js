@@ -48,4 +48,8 @@ async function main() {
     });
 }
 
-main();
+// main();
+
+exports.handler = (_) => {
+    main();
+}
