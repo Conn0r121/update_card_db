@@ -48,4 +48,12 @@
 // main();
 
 
-console.log('testing');
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: event,
+        testString: "hello world"
+    };
+    return response;
+};
