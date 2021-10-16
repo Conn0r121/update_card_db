@@ -50,6 +50,6 @@ async function main() {
 
 // main();
 
-exports.handler = (_) => {
+module.exports.handler = (_) => {
     main();
 }
