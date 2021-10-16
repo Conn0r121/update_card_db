@@ -32,7 +32,7 @@ async function main() {
     db.once('open', async () => {
         console.log('connected');
     
-        await Promise.all(oracleCards.slice(0, 10).map(async (cardJson) => {
+        await Promise.all(oracleCards.map(async (cardJson) => {
             const query = {name: cardJson.name};
             const params = {
                 upsert: true,
