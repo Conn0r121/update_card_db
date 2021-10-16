@@ -50,6 +50,7 @@
 
 exports.handler = async (event) => {
     // TODO implement
+    console.log('testing complete');
     const response = {
         statusCode: 200,
         body: event,
