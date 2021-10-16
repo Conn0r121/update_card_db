@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Conn0r121/update_card_db#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "fetch": "^1.1.0",
     "mongoose": "^6.0.10"
   }
 }
